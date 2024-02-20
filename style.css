@@ -60,3 +60,44 @@ footer {
 .dropdown-item:hover, .dropdown-item:focus {
     background-color: #cbddf1; /* Even darker on hover/focus for distinction */
 }
+
+.content-section {
+    opacity: 0; /* Start with sections hidden */
+    transition: opacity 0.5s ease-out; /* Smooth transition for opacity changes */
+    display: none; /* Initially, sections are not displayed */
+  }
+  
+  /* You might add a class in your JavaScript to handle the display block, like this: */
+  .content-section.active {
+    display: block; /* Active sections are displayed */
+    opacity: 1; /* Active sections are fully opaque */
+  }
+
+  /* Base (Light Theme) */
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --link-color: #0000ee;
+  }
+  
+  /* Dark Theme */
+  .dark-mode {
+    --background-color: #121212;
+    --text-color: #ffffff;
+    --link-color: #0096ff;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  a {
+    color: var(--link-color);
+  }
+  .card-title{
+    color: #000000;
+  }
+  .card-header{
+    color:#000000
+  }
