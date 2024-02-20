@@ -16,3 +16,47 @@ footer {
     text-align: center;
     margin: auto;
   }
+
+  /* Navigation Bar */
+.navbar {
+    background-color: #004d99; /* Dark blue background */
+    padding: 10px 20px; /* Add some padding for spacing */
+    color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1); /* Optional: add shadow for depth */
+}
+
+
+
+.navbar a.nav-link {
+    color: #ffffff; /* Light text color for contrast */
+    margin-right: 15px; /* Space between links */
+    transition: color 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.navbar a.nav-link:hover, .navbar a.nav-link.active {
+    color: #cceeff; /* Lighter blue on hover/active */
+}
+
+/* For sticky top bar */
+.navbar {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1020; /* Ensure navbar is above other content */
+}
+
+.nav-link {
+    transition: color 0.2s ease-in-out; /* Smooth transition for color change */
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #d4d4d4; /* Lighter shade when hovered or focused */
+}
+
+.dropdown-menu {
+    background-color: #eef1f3; /* Slightly darker than the navbar for contrast */
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: #cbddf1; /* Even darker on hover/focus for distinction */
+}
