@@ -99,6 +99,8 @@ footer {
   }
   .card-title{
     color: #000000;
+    margin-bottom: 0.5rem; /* Adjust spacing as needed */
+    font-size: 1.25rem;
   }
   .card-header{
     color:#000000
@@ -135,3 +137,64 @@ footer {
     background-color: #f0f0f0; /* Adds a hover effect to each link */
   }
   
+  /*innovation to the team members biographies page*/
+  .card-img-top {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto; /* Center the image */
+}
+
+.card-body {
+    display: none; /* Hide the bio by default */
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background to distinguish bio from card */
+    border-radius: 5px; /* Slight rounding of corners */
+    margin-top: 10px; /* Space between image and bio */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Soft shadow for depth *
+}
+
+.card:hover .card-body {
+    display: block; /* Show the bio on hover */
+    cursor: pointer;
+}
+
+.card {
+    transition: transform 0.3s; /* Smooth transition */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly increase size */
+}
+
+.card-text {
+  font-size: 14px; /* Smaller font for bio text */
+  line-height: 1.5; /* Improved readability with more space between lines */
+}
+
+h6 {
+  font-size: 16px; /* Slightly larger font for roles */
+  color: #555; /* Darker grey for contrast */
+  font-weight: normal; /* Avoid too bold */
+  margin-bottom: 15px; /* Space between role and bio */
+}
+
+@media (max-width: 768px) {
+  .card-group .card {
+      margin-bottom: 20px; /* More space between cards on smaller screens */
+  }
+
+  .card-body {
+      padding: 15px; /* Adjust padding for smaller screens */
+  }
+}
+
+.card-role {
+  font-size: 1rem; /* Smaller than the title */
+  color: #666; /* Lighter color to differentiate from the title */
+  font-weight: normal; /* Avoid making it too bold */
+  margin-bottom: 1rem; /* Space before the bio starts */
+}
+

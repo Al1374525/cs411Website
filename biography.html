@@ -81,7 +81,7 @@
               <div class="card-body">
                 <h5 class="card-title">Cody Cochran</h5>
                 <p class="card-text">
-                  <h6>Algorithm Designer<br>Database Manager(Backend)</h6><br>
+                  <h6 class="card-role">Algorithm Designer<br>Database Manager(Backend)</h6><br>
                   Cody Cochran is a senior undergraduate at Old Dominion University who is persuing a bachelor's in Computer Science. He has worked for 12 years as a technician and field engineer of radio equipment. His hobbies include programming, circuit building, and analyzing problems in mathematics that catch his interest.</p>
               </div>
             </div>
@@ -161,7 +161,21 @@
       });
     });
       </script>
-    
+
+      <!--Testing our Click interaction-->
+      <script>
+        document.querySelectorAll('.card-img-top').forEach(item => {
+            item.addEventListener('click', function() {
+                var bio = this.nextElementSibling; // Get the .card-body
+                if (bio.style.display === "none" || bio.style.display === "") {
+                    bio.style.display = "block";
+                } else {
+                    bio.style.display = "none";
+                }
+            });
+        });
+        </script>
+        
 
       <div class="container-fluid mt-6">
         <p class="text-center">CS410 - Team Blue - Fall 2023 | <a href="www.odu.edu">Old Dominion University |</a> <a href="www.cs.odu.edu">ODU Computer Science</a></p>
