@@ -17,6 +17,8 @@ footer {
     margin: auto;
   }
 
+  
+
   /* Navigation Bar */
 .navbar {
     background-color: #004d99; /* Dark blue background */
@@ -115,3 +117,21 @@ footer {
   #theme-toggle:hover {
     background-color: #45a049;
   }
+
+  /*This is for seamless usability for weekly reports section of the website*/
+  .accordion-body .list-group-item {
+    margin-bottom: 10px; /* Adds space between list items */
+    border-radius: 5px; /* Optional: Rounds the corners of the list items */
+  }
+  
+  .accordion-body .list-group-item a {
+    display: block;
+    color: inherit; /* Ensures the link color matches the text color of the list item */
+    text-decoration: none; /* Removes underline from links */
+    padding: 10px; /* Adds padding inside the link for better clickability */
+  }
+  
+  .accordion-body .list-group-item a:hover {
+    background-color: #f0f0f0; /* Adds a hover effect to each link */
+  }
+  
