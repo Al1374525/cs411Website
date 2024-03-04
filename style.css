@@ -20,6 +20,7 @@ footer {
   
 
   /* Navigation Bar */
+
 .navbar {
     background-color: #004d99; /* Dark blue background */
     padding: 10px 20px; /* Add some padding for spacing */
@@ -153,7 +154,7 @@ footer {
     background-color: #f9f9f9; /* Light background to distinguish bio from card */
     border-radius: 5px; /* Slight rounding of corners */
     margin-top: 10px; /* Space between image and bio */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Soft shadow for depth *
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Soft shadow for depth */
 }
 
 .card:hover .card-body {
