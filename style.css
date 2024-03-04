@@ -199,3 +199,19 @@ h6 {
   margin-bottom: 1rem; /* Space before the bio starts */
 }
 
+
+/*Download button for downloading presentations*/
+.download-button {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding for size */
+  border: none; /* No border */
+  cursor: pointer; /* Cursor indicates clickable */
+  border-radius: 5px; /* Rounded corners */
+  transition: box-shadow 0.3s ease; /* Smooth transition for the glow effect */
+  text-decoration: none;
+}
+
+.download-button:hover {
+  box-shadow: 0 0 15px #00ff00; /* Green glow */
+}
