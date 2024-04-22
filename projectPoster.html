@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<title>411 Blue Team</title>
+	<!--
+	<link rel="stylesheet" href="css/styles.css">
+	-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<!--Navbar-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">
+				<img src="assets/logoSimple.jpg" alt="logo" width="20" height="20" class="d-inline-block align-text-top">
+				Better Swipe</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<div class="navbar-nav">
+					<a class="nav-link" href="index.html">Home</a>
+					<a class="nav-link" href="biography.html">Meet Team Blue</a>
+					<a class="nav-link" href="problem.html">Problem</a>
+					<a class="nav-link" href="solution.html">Solution</a>
+					<a class="nav-link" href="deliverables.html">Deliverables</a>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Presentations
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<li><a class="dropdown-item" href="feasibilityv1.html">Feasibility V1</a></li>
+							<li><a class="dropdown-item" href="#">Feasibility V2</a></li>
+							<li><a class="dropdown-item" href="designv1.html">Design V1</a></li>
+							<li><a class="dropdown-item" href="prototype.html">Prototype V1</a></li>
+              <li><a class="dropdown-item" href="interimdemo1.html">Interim Demo #1</a></li>
+						</ul>
+					</li>
+
+					<!--Added Dropdown item skeleton for Prototype-->
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Prototype
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<li><a class="dropdown-item" href="RwpVPrototype.html">RWP VS Prototype</a></li>
+							<li><a class="dropdown-item" href="prototypeMFCD.html">prototypeMFCD</a></li>
+							<li><a class="dropdown-item" href="weekly_reports.html">Weekly Reports 411</a>
+						</ul>
+					</li>
+					<a class ="nav-link" href="userstories.html">User Stories</a>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Labs
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<li><a class="dropdown-item" href="lab1.html">Lab 1 410 </a></li>
+							<li><a class="dropdown-item" href="lab2.html">Lab 2</a></li>
+							<li><a class="dropdown-item" href="lab3.html">Lab 3(Outline)</a></li>
+						</ul>
+					</li>
+                    <a class="nav-link" href="projectPoster.html">Project Poster</a>
+					<a class="nav-link" href="glossary.html">Glossary</a>
+					<a class="nav-link" href="references.html">References</a>
+					<button id="theme-toggle">Toggle Dark Mode</button>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<!--Project Poster-->
+	<section id="projectPoster">
+        <div class="mt-4">
+            <div class="cards">
+                <h5 class="card-header">Project Poster</h5>
+                <div class="card-pres">
+                    <h5 class="card-title">Better Swipe Poster</h5>
+                    <embed src="/cs411Website/assets/deliverables/Project_BetterSwipe_Poster_-_Team_Blue_-_Spring_2024.pdf" 
+                       type="application/pdf" 
+                       width="100%" 
+                       height="500" 
+                       allow="fullscreen">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+	<section id="videoSection">
+		<div class="mt-4">
+			<h5 class="section-header">Our Project Video</h5>
+			<video controls width="100%" height="auto">
+				<source src="/cs411Website/assets/deliverables/BetterSwipe_Team_Blue_Poster_Recording.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+		</div>
+	</section>
+	
+	<div class="container-fluid mt-6">
+		<p class="text-center">CS410 - Team Blue - Fall 2023 | <a href="www.odu.edu">Old Dominion University |</a> <a href="www.cs.odu.edu">ODU Computer Science</a></p>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
